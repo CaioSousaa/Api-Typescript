@@ -2,7 +2,7 @@ import { CategoriesRepository } from "../../cars/repositories/CategoriesReposito
 import { CrateCategoryController } from "./CreateCategoryController";
 import { CreateCategoryUseCases } from "./CreateCategoryUseCases";
 
-const categoriesRepository = new CategoriesRepository();
+const categoriesRepository = CategoriesRepository.getIntance();
 
 const createCategoryUseCases = new CreateCategoryUseCases(categoriesRepository);
 
