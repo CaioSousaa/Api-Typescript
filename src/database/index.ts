@@ -1,13 +1,12 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { DataSource } from "typeorm";
 
 const AppDataSource = new DataSource({
     type: "postgres",
-    host: "localhost",
+    host: "172.17.0.2",
     port: 5432,
-    username: "docker",
-    password: "ignite",
-    database: "rentx",
+    username: "postgres",
+    password: "postgres",
+    database: "databasetest",
 });
 
 AppDataSource.initialize()

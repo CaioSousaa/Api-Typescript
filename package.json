@@ -32,8 +32,7 @@
         "pg": "^8.11.3",
         "reflect-metadata": "^0.2.0",
         "swagger-ui-express": "^5.0.0",
+        "typeorm": "^0.3.7",
         "uuid": "^9.0.0"
-    },
-    "repository": "https://github.com/Natan-Lucena/APISolidTypescript.git",
-    "author": "Caio <caiothalles607@gmail.com>"
+    }
 }
